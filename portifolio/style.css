@@ -8,7 +8,7 @@
   text-align: center;
   width: 100%;
   height: 792px;
-  background-color: #252934;
+  background-color: #77530f;
   color: #fff;
 }
 
@@ -27,8 +27,9 @@ h1{
 }
 
 .home-page span{
-  color: #e31b6d;
+  color: #ffac12;
   font-size: 2.5rem;
+  text-shadow: 2px 2px 3px black;
 }
 
 .btn {
@@ -46,7 +47,7 @@ h1{
 }
 
 .btn:hover {
-   background: #04c2c9;
+   background: #ffac12;
    border-radius: 4px;
    text-decoration: none;
 }
@@ -65,7 +66,7 @@ h1{
 }
 
 .icons:hover{
-  color: #04c2c9;
+  color: #ffac12;
   cursor: pointer;
 }
 
@@ -75,8 +76,8 @@ h1{
   position: relative;
   width: 100%;
   height: 3rem;
-  background-color:#1b242f;
-  border-bottom: solid 4px #04c2c9;
+  background-color:#473209;
+  border-bottom: solid 4px #ffac12;
 }
 
 nav a::after{
@@ -88,9 +89,11 @@ nav a::after{
 }
 
 .my-logo img{
-  width: 3rem;
+  width: 10rem;
   height: 3rem;
-  opacity: 0.8;
+  opacity: 0.8
+  
+  ;
 }
 
 .my-logo img:hover{
@@ -133,7 +136,7 @@ nav a{
 }
 
 nav a:hover{
-  color:#e31b6d;
+  color:#e7a11f;
   transition: color .5s;
 }
 
@@ -160,7 +163,7 @@ nav a:hover{
   position: relative;
   height: 50rem;
   text-align: center;
-  background: #DDDDDD;
+  background: #ffd796;
 }
 
 .navigate-about{
@@ -172,16 +175,16 @@ nav a:hover{
 }
 
 .heading h1{
-  color: #444649;
+  color: #74500f;
   font-weight: bold;
 }
 
 .underline{
   position: relative;
-  top: 1rem;
-  width: 5%;
+  top: 0.4rem;
+  width: 10%;
   height: 5px;
-  background-color: #444649;
+  background-color: #533806;
 }
 
 .row{
@@ -189,7 +192,7 @@ nav a:hover{
   text-align: center;
   top: 4rem;
   width: 80%;
-  color: #686d76;
+  color: #251901;
 }
 
 .col {
@@ -209,7 +212,7 @@ nav a:hover{
 .feature-icon img{
   padding: 1.5rem 2rem;
   width: 50px;
-  background-color: #04c2c9;
+  background-color: #815b15;
 }
 
 .feature-detail{
@@ -235,7 +238,8 @@ nav a:hover{
 
 .about-me a{
   text-decoration: none;
-  color: #009ada;
+  color: #ffa602;
+  text-shadow: 1px 1px 1px black;
 }
 
 #contact-icons{
@@ -247,19 +251,19 @@ nav a:hover{
 .btn2{
   position: relative;
   border-radius: 4px;
-  color: #FFFFFF;
+  color: #ffa602;
   font-size: 1.4rem;
   padding: .6rem 1.8rem;
   margin-top: 2rem;
   background: transparent;
-  border: solid #009ada 1px;
+  border: solid #ffa60254 1px;
   text-decoration: none;
   display: inline-block;
   text-align: center;
 }
 
 .btn2:hover {
-   background: #04c2c9;
+   background: #ffa602;
    color: #fff;
    border-radius: 4px;
    text-decoration: none;
@@ -271,7 +275,7 @@ nav a:hover{
 
 .btn2>a{
   padding: 10px 5px;
-  color: #009ada;
+  color: #ffa602;
 }
 
 .picture{
@@ -300,7 +304,7 @@ nav a:hover{
 .feature-icon2 img{
   padding: 1.5rem 2rem;
   width: 50px;
-  background-color: #db508a;
+  background-color: #815b15;
 }
 .pic-hexagon{
   clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
@@ -309,10 +313,9 @@ nav a:hover{
 /*PORTFOLIO*/
 .Skills{
   position: relative;
-  top: 1rem;
-  height: 125rem;
+  height: 50rem;
   text-align: center;
-  background: #FFFFFF;
+  background: #ffe8c4;
 }
 
 .navigate-skill{
@@ -321,7 +324,7 @@ nav a:hover{
 .portfolio-heading{
   position: relative;
   width: 15%;
-  color: #444649;
+  color: #251901;
   font-weight: 700;
 }
 .portfolio-heading h1{
@@ -330,18 +333,16 @@ nav a:hover{
 
 .Techstack {
   position: relative;
-  top: 1rem;
   height: 60rem;
   text-align: center;
-  background: #DDDDDD;
+  background: #fff1d8;
 }
 
 .Projects{
   position: relative;
-  top: 1rem;
   height: 135rem;
   text-align: center;
-  background: #FFFFFF;
+  background: #fdf4e5;
 }
 
 .project-image{
@@ -352,19 +353,19 @@ nav a:hover{
 .btn3{
   position: relative;
   border-radius: 4px;
-  color: #009ada;
+  color: #ffa602;
   font-size: 1.4rem;
   padding: .6rem 1.8rem;
   margin-bottom: 2rem;
   background: transparent;
-  border: solid #009ada 1px;
+  border: solid #ffa602 1px;
   text-decoration: none;
   display: inline-block;
   text-align: center;
 }
 
 .btn3:hover {
-   background: #04c2c9;
+   background: #ffa602;
    color: #fff;
    border-radius: 4px;
    text-decoration: none;
@@ -377,7 +378,7 @@ nav a:hover{
 
 .btn3>a{
   padding: 10px 5px;
-  color: #009ada;
+  color: #ffa602;
 }
 h5{
   width: 80%;
@@ -392,12 +393,18 @@ h5{
 .Contact{
   position: relative;
   width: 100%;
-  top: 1rem;
   height: 36rem;
   text-align: center;
   background: #1B242F;
 }
 
+.contato {
+
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+
+}
 .heading2 {
   width: 15%;
 }
@@ -431,7 +438,7 @@ h5{
 }
 
 #contact>div{
-  color: white;
+  color: ffa602;
   text-decoration: none;
   text-decoration: none;
 }
@@ -444,12 +451,12 @@ h5{
 }
 
 .name h1{
-  color: #e31b6d;
+  color: #ffa602;
   margin-top: 1rem;
 }
 
 .phone{
-  color: #686d76;
+  color: #291b02;
   font-weight: lighter;
 }
 
@@ -463,7 +470,7 @@ h5{
 }
 
 .icons2:hover{
-  color: #e31b6d;
+  color: #ffa602;
   cursor: pointer;
 }
 
@@ -484,8 +491,8 @@ h5{
   position: relative;
   width: 100%;
   height: 3rem;
-  background-color:#1b242f;
-  border-bottom: solid 4px #04c2c9;
+  background-color:#473209;
+  border-bottom: solid 4px #77530f;
 }
 
 nav a::after{
@@ -542,7 +549,7 @@ nav a{
 }
 
 nav a:hover{
-  color:#e31b6d;
+  color:#ffac12;
   transition: color .5s;
 }
 
@@ -592,7 +599,7 @@ nav a:hover{
   .nav_Menu.active{
     left: 0;
     top: 0;
-    background-color: #1B242F;
+    background-color: #473209;
   }
 
   .home-page-container{
@@ -617,7 +624,7 @@ h1{
 }
 
 .heading h1{
-  color: #444649;
+  color: #74500f;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -627,7 +634,7 @@ h1{
   top: 1rem;
   width: 8%;
   height: 4px;
-  background-color: #444649;
+  background-color: #533806;
 }
 
 .row{
@@ -635,7 +642,7 @@ h1{
   text-align: center;
   top: 4rem;
   width: 80%;
-  color: #686d76;
+  color: #251901;
 }
 
 h2{
@@ -689,7 +696,7 @@ h3{
 .Projects{
   height: 115rem;
   text-align: center;
-  background: #FFFFFF;
+  background: #fdf4e5;
 }
 
 .heading2{
@@ -730,7 +737,7 @@ h3{
   text-align: center;
   width: 100%;
   height: 1140px;
-  background-color: #252934;
+  background-color: #77530f;
   color: #fff;
 }
 
@@ -779,7 +786,7 @@ h3{
 .Projects{
   height: 195rem;
   text-align: center;
-  background: #FFFFFF;
+  background: #fdf4e5;
 }
 
 .span-1-of-2{
@@ -806,20 +813,7 @@ h3{
   width: 5%;
 }
 
-#gitStats{
-  display: block;
-  margin: 20px 50px;
-}
-            
-#gitStats>div>img{
-  width: 80%;
-}
-            
-.calendar svg{
-  width: 95%;
-}
 
-}
 
 @media screen and (max-width:400px) {
 
@@ -827,7 +821,7 @@ h3{
   text-align: center;
   width: 100%;
   height: 42rem;
-  background-color: #252934;
+  background-color: #77530f;
   color: #fff;
 }
 .home-page-container h1{
@@ -841,8 +835,8 @@ h3{
   position: relative;
   width: 100%;
   height: 2.5rem;
-  background-color:#1b242f;
-  border-bottom: solid 4px #04c2c9;
+  background-color:#473209;
+  border-bottom: solid 4px #ffac12;
 }
 
 nav a::after{
@@ -906,7 +900,7 @@ nav a{
 }
 
 nav a:hover{
-  color:#e31b6d;
+  color:#e7a11f;
   transition: color .5s;
 }
 
@@ -915,7 +909,7 @@ nav a:hover{
   top: 1rem;
   width: 15%;
   height: 4px;
-  background-color: #444649;
+  background-color: #533806;
 }
 
 #icons{
@@ -970,7 +964,7 @@ nav a:hover{
 }
 
 .heading h1{
-  color: #444649;
+  color: #74500f;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -984,7 +978,7 @@ p img{
 .Projects{
   height: 178rem;
   text-align: center;
-  background: #FFFFFF;
+  background: #fdf4e5;
 }
 
 .span-1-of-2{
