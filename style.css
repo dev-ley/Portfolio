@@ -200,8 +200,11 @@ nav a:hover{
 	display: block;
   text-align: center;
 	float:left;
+  letter-spacing: 0.5px;
 	margin: 1% 0 1% 1.6%;
 }
+
+
 
 .col p{
   line-height: 1.5;
