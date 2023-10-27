@@ -18,7 +18,7 @@ Olá, sou Wesley Barbosa Rodrigues, um desenvolvedor Front-End.
 ## Como Me Encontrar
 
 - 💼 Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/wr-dev/).
-- 📧 Entre em contato pelo meu [e-mail](ley.desenvolvedor@gmail.com).
+- 📧 Entre em contato pelo meu [e-mail](mailto:ley.desenvolvedor@gmail.com).
 
 Sinta-se à vontade para explorar meus repositórios aqui no GitHub e conhecer meu trabalho. Estou animado para colaborar em projetos empolgantes e continuar aprendendo enquanto avanço na minha jornada como desenvolvedor.
 
