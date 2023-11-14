@@ -1,3 +1,14 @@
+:root {
+  --Cor-01: #2e1835;
+  --Cor-02: #1d0524;
+  --Cor-03: #4e0a85;
+  --Cor-04: #bba6cf;
+  --Cor-05: #441e5e;
+  --Cor-06: #471a61;
+  --Cor-Branco: #fff;
+
+}
+
 *{
   padding: 0 ;
   margin:0 auto;
@@ -8,8 +19,8 @@
   text-align: center;
   width: 100%;
   height: 100vh;
-  background-color: #77530f;
-  color: #fff;
+  background-color: var(--Cor-01);
+  color: var(--Cor-Branco);
 }
 
 .home-page-container{
@@ -28,7 +39,7 @@ h1{
 }
 
 .home-page span{
-  color: #ffac12;
+  color: var(--Cor-03);
   font-size: 2.5rem;
   text-shadow: 2px 2px 3px black;
 }
@@ -48,7 +59,7 @@ h1{
 }
 
 .btn:hover {
-   background: #ffac12;
+   background: var(--Cor-03);
    border-radius: 4px;
    text-decoration: none;
 }
@@ -67,7 +78,7 @@ h1{
 }
 
 .icons:hover{
-  color: #ffac12;
+  color: var(--Cor-03);
   cursor: pointer;
 }
 
@@ -77,8 +88,8 @@ h1{
   position: relative;
   width: 100%;
   height: 3rem;
-  background-color:#473209;
-  border-bottom: solid 4px #ffac12;
+  background-color:var(--Cor-02);
+  border-bottom: solid 4px var(--Cor-03);
 }
 
 nav a::after{
@@ -133,11 +144,11 @@ nav a{
   font-size: 1rem;
   font-weight:normal;
   text-decoration: none;
-  color: #fff;
+  color: var(--Cor-Branco);
 }
 
 nav a:hover{
-  color:#e7a11f;
+  color:var(--Cor-03);
   transition: color .5s;
 }
 
@@ -153,7 +164,7 @@ nav a:hover{
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: white;
+  background-color: var(--Cor-Branco);
 }
 
 
@@ -164,7 +175,7 @@ nav a:hover{
   position: relative;
   height: 50rem;
   text-align: center;
-  background: #ffd796;
+  background: var(--Cor-04);
 }
 
 .navigate-about{
@@ -176,7 +187,7 @@ nav a:hover{
 }
 
 .heading h1{
-  color: #74500f;
+  color: var(--Cor-05);
   font-weight: bold;
 }
 
@@ -185,15 +196,18 @@ nav a:hover{
   top: 0.4rem;
   width: 10%;
   height: 5px;
-  background-color: #533806;
+  background-color: var(--Cor-06);
 }
 
 .row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   position: relative;
   text-align: center;
   top: 4rem;
   width: 80%;
-  color: #251901;
+  color: var(--Cor-01);
 }
 
 .col {
@@ -216,7 +230,7 @@ nav a:hover{
 .feature-icon img{
   padding: 1.5rem 2rem;
   width: 50px;
-  background-color: #815b15;
+  background-color: var(--Cor-03);
 }
 
 .feature-detail{
@@ -242,7 +256,7 @@ nav a:hover{
 
 .about-me a{
   text-decoration: none;
-  color: #ffa602;
+  color: var(--Cor-03);
   text-shadow: 1px 1px 1px black;
 }
 
@@ -255,31 +269,31 @@ nav a:hover{
 .btn2{
   position: relative;
   border-radius: 4px;
-  color: #ffa602;
+  color: var(--Cor-03);
   font-size: 1.4rem;
   padding: .6rem 1.8rem;
   margin-top: 2rem;
   background: transparent;
-  border: solid #ffa60254 1px;
+  border: solid var(--Cor-03) 1px;
   text-decoration: none;
   display: inline-block;
   text-align: center;
 }
 
 .btn2:hover {
-   background: #ffa602;
-   color: #fff;
+   background: var(--Cor-03);
+   color: var(--Cor-Branco);
    border-radius: 4px;
    text-decoration: none;
 }
 
 .btn2:hover>a{
-  color: #fff;
+  color: var(--Cor-Branco);
 }
 
 .btn2>a{
   padding: 10px 5px;
-  color: #ffa602;
+  color: var(--Cor-03);
 }
 
 .picture{
@@ -309,7 +323,7 @@ nav a:hover{
 .feature-icon2 img{
   padding: 1.5rem 2rem;
   width: 50px;
-  background-color: #815b15;
+  background-color: var(--Cor-03);
 }
 .pic-hexagon{
   clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
@@ -320,7 +334,7 @@ nav a:hover{
   position: relative;
   height: 50rem;
   text-align: center;
-  background: #ffe8c4;
+  background: #b99ed4f0;
 }
 
 .navigate-skill{
@@ -329,7 +343,7 @@ nav a:hover{
 .portfolio-heading{
   position: relative;
   width: 15%;
-  color: #251901;
+  color: var(--Cor-01);
   font-weight: 700;
 }
 .portfolio-heading h1{
@@ -340,14 +354,14 @@ nav a:hover{
   position: relative;
   height: 60rem;
   text-align: center;
-  background: #fff1d8;
+  background: #b99ed4fa;
 }
 
 .Projects{
   position: relative;
   height: 135rem;
   text-align: center;
-  background: #fdf4e5;
+  background: #b79dd2;
 }
 
 .project-image{
@@ -358,7 +372,7 @@ nav a:hover{
 .btn3{
   position: relative;
   border-radius: 4px;
-  color: #ffa602;
+  color: var(--Cor-03);
   font-size: 1.4rem;
   padding: .6rem 1.8rem;
   margin-bottom: 2rem;
@@ -370,20 +384,20 @@ nav a:hover{
 }
 
 .btn3:hover {
-   background: #ffa602;
-   color: #fff;
+   background: var(--Cor-03);
+   color: var(--Cor-Branco);
    border-radius: 4px;
    text-decoration: none;
    cursor: pointer;
 }
 
 .btn3:hover>a{
-  color: #fff;
+  color: var(--Cor-Branco);
 }
 
 .btn3>a{
   padding: 10px 5px;
-  color: #ffa602;
+  color: var(--Cor-03);
 }
 h5{
   width: 80%;
@@ -405,7 +419,7 @@ h5{
 
 .contato {
 
-  color: white;
+  color: var(--Cor-Branco);
   text-shadow: 1px 1px 1px black;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Tahoma, Geneva, Verdana, sans-serif;
 
@@ -443,7 +457,7 @@ h5{
 }
 
 #contact>div{
-  color: ffa602;
+  color:var(--Cor-03);
   text-decoration: none;
   text-decoration: none;
 }
@@ -456,7 +470,7 @@ h5{
 }
 
 .name h1{
-  color: #ffa602;
+  color: var(--Cor-03);
   margin-top: 1rem;
 }
 
@@ -476,7 +490,7 @@ h5{
 }
 
 .icons2:hover{
-  color: #ffa602;
+  color: var(--Cor-03);
   cursor: pointer;
 }
 
@@ -497,8 +511,8 @@ h5{
   position: relative;
   width: 100%;
   height: 3rem;
-  background-color:#473209;
-  border-bottom: solid 4px #77530f;
+  background-color:var(--Cor-02);
+  border-bottom: solid 4px var(--Cor-01);
 }
 
 nav a::after{
@@ -551,11 +565,11 @@ nav a{
   font-size: 1rem;
   font-weight:normal;
   text-decoration: none;
-  color: #fff;
+  color: var(--Cor-Branco);
 }
 
 nav a:hover{
-  color:#ffac12;
+  color:var(--Cor-03);
   transition: color .5s;
 }
 
@@ -605,7 +619,7 @@ nav a:hover{
   .nav_Menu.active{
     left: 0;
     top: 0;
-    background-color: #473209;
+    background-color: var(--Cor-02);
   }
 
   .home-page-container{
@@ -630,7 +644,7 @@ h1{
 }
 
 .heading h1{
-  color: #74500f;
+  color: var(--Cor-05);
   font-size: 2rem;
   font-weight: bold;
 }
@@ -640,7 +654,7 @@ h1{
   top: 1rem;
   width: 8%;
   height: 4px;
-  background-color: #533806;
+  background-color: var(--Cor-06);
 }
 
 .row{
@@ -743,8 +757,8 @@ h3{
   text-align: center;
   width: 100%;
   height: 100vh;
-  background-color: #77530f;
-  color: #fff;
+  background-color: var(--Cor-01);
+  color: var(--Cor-Branco);
 }
 
 .picture{
@@ -827,8 +841,8 @@ h3{
   text-align: center;
   width: 100%;
   height: 100vh;
-  background-color: #77530f;
-  color: #fff;
+  background-color: var(--Cor-01);
+  color: var(--Cor-Branco);
 }
 .home-page-container h1{
   font-size: x-large;
@@ -841,8 +855,8 @@ h3{
   position: relative;
   width: 100%;
   height: 2.5rem;
-  background-color:#473209;
-  border-bottom: solid 4px #ffac12;
+  background-color:var(--Cor-02);
+  border-bottom: solid 4px var(--Cor-03);
 }
 
 nav a::after{
@@ -902,11 +916,11 @@ nav a{
   font-size: 1rem;
   font-weight:normal;
   text-decoration: none;
-  color: #fff;
+  color: var(--Cor-Branco);
 }
 
 nav a:hover{
-  color:#e7a11f;
+  color:var(--Cor-03);
   transition: color .5s;
 }
 
@@ -915,7 +929,7 @@ nav a:hover{
   top: 1rem;
   width: 15%;
   height: 4px;
-  background-color: #533806;
+  background-color: var(--Cor-06);
 }
 
 #icons{
@@ -970,7 +984,7 @@ nav a:hover{
 }
 
 .heading h1{
-  color: #74500f;
+  color: var(--Cor-05);
   font-size: 1.5rem;
   font-weight: bold;
 }
