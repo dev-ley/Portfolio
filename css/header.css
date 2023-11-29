@@ -67,7 +67,7 @@ header {
     padding: 12px 24px;
 }
 
-@media (max-width: 1420px) {
+@media (max-width: 900px) {
 
     header {
         width: 100%;
