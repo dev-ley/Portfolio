@@ -79,3 +79,33 @@
     padding: 12px 24px;
     border: none;
 }
+
+@media (max-width: 900px) {
+
+    .PORTFOLIO {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 1728px;
+        margin: 503px auto 0 auto;
+        padding: 80px 0px 0px 0px;
+    }
+
+    .card {
+        width: 500px;
+        padding: 30px;
+        border-radius: 10px;
+        border: 1px solid #737373;
+        gap: 23px;
+    }
+
+    .conteiner-portfolio {
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 0 22px;
+    }
+
+}

@@ -69,6 +69,17 @@ header {
 
 @media (max-width: 1420px) {
 
+    header {
+        width: 100%;
+        max-width: 1709px;
+        margin: 0px auto;
+        padding: 50px 100px 30px 100px; 
+        display: flex;
+        color: var(--color-white);
+        justify-content: space-between;
+        display: none;
+    }
+
     
 }
 

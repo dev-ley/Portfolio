@@ -82,3 +82,60 @@
     color: var(--color-white);
 }
 
+@media (max-width: 900px) {
+
+    .SKILLS {
+        width: 100%;
+        max-width: 1728px;
+        margin: 0 auto;
+        padding: 120px 22px 200px 22px;
+    }
+
+
+    .conteiner-skill {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .card-skill {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 386px;
+        height: 536px;
+        padding: 40px 50px 60px 40px;
+        border-radius: 10px;
+        border: 1px solid #737373;
+        gap: 20px;
+    }
+
+    .skill-text {
+        width: 296px;
+    }
+    
+    .skill-text > h4 {
+        font-family: var(--font-Secundaria);
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: -0.05em;
+        text-align: center;
+        color: var(--color-white);
+        padding-bottom: 24px;
+    }
+    .skill-text > p {
+        font-family: var(--font-Secundaria);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.05em;
+        text-align: center;
+        color: var(--color-white);
+    }
+    
+
+}
