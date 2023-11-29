@@ -1,0 +1,45 @@
+.TESTIMONY {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1728px;
+    height: 800px;
+    margin: 0 auto;
+    background-image: url(../img/testimony/gradientecapa.png);
+}
+
+.conteiner-testimony {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1094px;
+    height: 506px;
+    gap: 60px;
+}
+
+.conteiner-testimony > h3 {
+    font-family: var(--font-Principal);
+    color: var(--color-white);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: -0.05em;
+    text-align: left; 
+}
+
+.conteiner-testimony > p {
+    font-family: var(--font-Principal);
+    color: var(--color-white);
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.05em;
+    text-align: left;
+}
+
+.conteiner-testimony > img {
+    width: 72px;
+    height: 86px;
+}

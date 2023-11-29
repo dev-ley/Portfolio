@@ -1,0 +1,135 @@
+.PRODUCT {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1728px;
+    padding: 60px 100px 0px 100px;
+    margin: 0 auto;
+    color: white;
+}
+
+.conteiner1-Product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 660px;
+    min-width: 200px;
+    height: 695px;
+}
+
+.conteiner1-Product > a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.text-Product > h2 {
+    font-family: var(--font-Terciaria);
+    font-size: 12.5rem;
+    text-wrap: wrap;
+    font-weight: 400;
+    line-height: 180px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.text-Product > h3 {
+    padding-top: 20px;
+    font-family: var(--font-Terciaria);
+    font-size: 114px;
+    font-weight: 400;
+    line-height: 103px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    background: linear-gradient(to right, #FA709A, #FEE140);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.icons-Product {
+    display: flex;
+    justify-content: space-between;
+    max-width: 660px;
+    padding: 70px 0px 40px 0px;
+}
+
+.download-Product {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px 0px;
+    background-color: var(--color-Mainlight);
+}
+
+.download-Product > p {
+    background-color: var(--color-Mainlight);
+    font-family: var(--font-Secundaria);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.05em;
+    text-align: left;
+}
+
+.download-Product > img {
+    background-color: var(--color-Mainlight);
+}
+
+.conteiner2-Product {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 160px;
+    height: 695px;
+    padding-right: 19px;
+}
+
+.conteiner2-Product > img{
+    width: 100%;
+    min-width: 90px;
+}
+
+.conteiner3-Product {
+    display: flex;
+    flex-direction: column;
+    max-width: 694px;
+}
+.conteiner3-Product > img{
+    width: 100%;
+    min-width: 400px;
+    height: 700px;
+}
+
+@media (max-width: 1420px) {
+
+    .PRODUCT {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 1728px;
+        padding: 60px 100px 0px 100px;
+        margin: 0 auto;
+        color: white;
+    }
+
+    .conteiner1-Product {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        max-width: 660px;
+        min-width: 200px;
+        height: 695px;
+    }
+
+    .conteiner2-Product {
+        display: none;
+    }
+
+    .conteiner3-Product {
+        display: none;
+    }
+    
+}

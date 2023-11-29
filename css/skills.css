@@ -1,0 +1,84 @@
+.SKILLS {
+    width: 100%;
+    max-width: 1728px;
+    margin: 0 auto;
+    padding: 0px 80px 200px 80px;
+}
+
+.SKILLS > h1 {
+    font-family: var(--font-Terciaria);
+    color: var( --color-white);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+.conteiner-skill {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-skill {
+    display: flex;
+    align-items: center;
+    width: 774px;
+    padding: 40px 50px 60px 40px;
+    border-radius: 10px;
+    border: 1px solid #737373;
+    gap: 20px;
+}
+
+.skill-graph {
+    width: 220px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-image: url(../img/skills/Graph.png);
+}
+
+.skill-graph > img {
+    width: 100%;
+}
+
+.skill-graph > h4 {
+    font-family: var(--font-Secundaria);
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    color: var(--color-white);
+}
+
+.skill-text {
+    width: 425px;
+}
+
+.skill-text > h4 {
+    font-family: var(--font-Secundaria);
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    color: var(--color-white);
+    padding-bottom: 24px;
+}
+.skill-text > p {
+    font-family: var(--font-Secundaria);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    color: var(--color-white);
+}
+

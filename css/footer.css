@@ -1,0 +1,83 @@
+.FOOTER {
+    width: 100%;
+    max-width: 1728px;
+    margin: 0 auto;
+    height: 320px;
+    background-color: var(--color-Mainlight);
+}
+
+.conteiner-Pops {
+    position: relative;
+    width: 1528px;
+    height: 180px;
+    border-radius: 15px;
+    background-color: #A87FF3 ;
+    margin: 0 auto;
+    top: 103px;
+}
+
+.box-footer {
+    display: flex;
+}
+
+.box-footer > img {
+    width: 281px;
+    height: 397px;
+    position: relative;
+    bottom: 215px;
+}
+
+.box-footer > p {
+    padding: 68px 0px 68px 50px ;
+    color: var(--color-white);
+    font-family: var(--font-Secundaria);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.05em;
+    text-align: left;
+}
+
+.conteiner-footer {
+    padding: 143px 100px 30px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    width: 164.25px;
+    height: 60.75px;
+    gap: 11.25px;
+}
+
+.footer-logo > h3 {
+    font-family: var(--font-Principal);
+    color: var(--color-white);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer-nav {
+    display: flex;
+    width: 360px;
+    height: 20px;
+    gap: 30px;
+}
+
+.footer-nav > a {
+    text-decoration: none;
+    font-family: var(--font-Secundaria);
+    color: var(--color-white);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.05em;
+    text-align: left;
+}
+
