@@ -108,4 +108,17 @@
         padding: 0 22px;
     }
 
+    @media (max-width: 430px) {
+
+
+    .card {
+        width: 360px;
+        padding: 30px;
+        border-radius: 10px;
+        border: 1px solid #737373;
+        gap: 23px;
+    }
+
+    }
+
 }
