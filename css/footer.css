@@ -8,7 +8,8 @@
 
 .conteiner-Pops {
     position: relative;
-    width: 1528px;
+    width: 90%;
+    max-width: 1528px;
     height: 180px;
     border-radius: 15px;
     background-color: #A87FF3 ;
