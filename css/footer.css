@@ -4,6 +4,7 @@
     margin: 0 auto;
     height: 320px;
     background-color: var(--color-Mainlight);
+
 }
 
 .conteiner-Pops {
@@ -15,10 +16,12 @@
     background-color: #A87FF3 ;
     margin: 0 auto;
     top: 103px;
+    z-index: 0;
 }
 
 .box-footer {
     display: flex;
+    height: 100px;
 }
 
 .box-footer > img {
