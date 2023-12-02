@@ -1,4 +1,4 @@
-header {
+.header-desktop {
     width: 100%;
     max-width: 1709px;
     margin: 0px auto;
@@ -6,6 +6,10 @@ header {
     display: flex;
     color: var(--color-white);
     justify-content: space-between;
+    align-items: center;
+}
+.header-mobile{
+    display: none;
 }
 
 .logo-top {
@@ -13,6 +17,7 @@ header {
     align-items: center;
     color: var(--color-white);
     gap: 5px;
+    
 }
 
 .logo-top > img {
@@ -47,13 +52,13 @@ header {
     text-align: left;
 }
 
-.bt-header{
+.bt-header-desktop{
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.bt-header > a {
+.bt-header-desktop > a {
     font-family: var(--font-Secundaria);
     font-size: 16px;
     font-weight: 400;
@@ -69,20 +74,75 @@ header {
 
 @media (max-width: 900px) {
 
-    header {
-        width: 100%;
-        max-width: 1709px;
-        margin: 0px auto;
-        padding: 50px 100px 30px 100px; 
-        display: flex;
-        color: var(--color-white);
-        justify-content: space-between;
+    .header-desktop {
         display: none;
     }
 
     
+.logo-top {
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+    gap: 5px;
+    padding-left: 20px;
+    
 }
 
+    .conteiner-hamburger {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .header-mobile {
+        display: flex;
+        flex-direction: column;
+        width: 100% ;
+        height: 100%;
+        background-color: var(--color-Mainlight);
+        justify-content: space-between;
+    }
+    
+    .navbar-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-bottom: 20px;
+    }
+
+    .conteiner-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .conteiner-menu > a {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        color: white;
+        text-decoration: none;
+        text-align: left;
+        width: 214px;
+        font-size: 22px;
+        align-items: flex-end;
+        padding-right: 25px;
+    }
+
+    .menu-responsivo{
+        display: flex;
+        width: 100px;
+        height: 100px;
+        background-image: url(../img/header/menu.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 40px;
+    }
+}
+
+@media (max-width: 900px) {
 
 
+}
 
