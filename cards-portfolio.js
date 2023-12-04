@@ -28,56 +28,7 @@ const dadosDosCards = [
     // Adicione mais objetos para representar mais projetos
   ];
 
-  /*
-  <div class="card">
-                <img src="img/portfolio/portfolioimg.png" alt="imagem de capa">
-                <h4>Mi portal U</h4>
-                <span>UX Design</span><span>University</span><span>JavaScript</span>
-                <button>Figma community</button>
-            </div>
-            <div class="card">
-                <img src="img/portfolio/portfolioimg.png" alt="imagem de capa">
-                <h4>Mi portal U</h4>
-                <span>UX Design</span><span>University</span><span>JavaScript</span>
-                <button>Figma community</button>
-            </div>
-            <div class="card">
-                <img src="img/portfolio/portfolioimg.png" alt="imagem de capa">
-                <h4>Mi portal U</h4>
-                <span>UX Design</span><span>University</span><span>JavaScript</span>
-                <button>Figma community</button>
-            </div>
-            <div class="card">
-                <img src="img/portfolio/portfolioimg.png" alt="imagem de capa">
-                <h4>Mi portal U</h4>
-                <span>UX Design</span><span>University</span><span>JavaScript</span>
-                <button>Figma community</button>
-            </div>
-            <div class="card">
-                <img src="img/portfolio/portfolioimg.png" alt="imagem de capa">
-                <h4>Mi portal U</h4>
-                <span>UX Design</span><span>University</span><span>JavaScript</span>
-                <button>Figma community</button>
-            </div>
-            <div class="card">
-                <img src="img/portfolio/portfolioimg.png" alt="imagem de capa">
-                <h4>Mi portal U</h4>
-                <span>UX Design</span><span>University</span><span>JavaScript</span>
-                <button>Figma community</button>
-            </div>
-            <div class="card">
-                <img src="img/portfolio/portfolioimg.png" alt="imagem de capa">
-                <h4>Mi portal U</h4>
-                <span>UX Design</span><span>University</span><span>JavaScript</span>
-                <button>Figma community</button>
-            </div>
-            <div class="card">
-                <img src="img/portfolio/portfolioimg.png" alt="imagem de capa">
-                <h4>Mi portal U</h4>
-                <span>UX Design</span><span>University</span><span>JavaScript</span>
-                <button>Figma community</button>
-            </div>*/
-
+  
   // Obtém o contêiner do portfolio
   const portfolioContainer = document.getElementById('portfolio-container');
 
@@ -113,3 +64,24 @@ const dadosDosCards = [
     // Adiciona o card ao contêiner do portfolio
     portfolioContainer.appendChild(cardElemento);
   });
+
+  function handleIntersection(entries, observer) {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        cardElemento.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }
+  
+  // Configuração do Intersection Observer
+  const observerOptions = {
+    root: null,
+    threshold: 0.5,
+  };
+  
+  // Criação do Intersection Observer
+  const observer = new IntersectionObserver(handleIntersection, observerOptions);
+  
+  // Adiciona o elemento ao Intersection Observer
+  observer.observe(cardElemento);
