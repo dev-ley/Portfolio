@@ -18,7 +18,7 @@
  }
 
 
- const numeros = 2500;
+ const numeros = 25000;
  let contadorAtual2 = 0;
  let contadorInterval2 = 100; // Declare a variável do intervalo fora da função
 
@@ -28,8 +28,8 @@
 
  // Função para incrementar o contador
  function incrementarContador2() {
-     contadorAtual2 = contadorAtual2 + 5;
-     contadorElemento2.textContent = contadorAtual2;
+     contadorAtual2 = contadorAtual2 + 50;
+     contadorElemento2.textContent = contadorAtual2.toLocaleString('pt-BR');
 
      if (contadorAtual2 === numeros) {
          clearInterval(contadorInterval2);
