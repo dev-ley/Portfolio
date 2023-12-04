@@ -92,6 +92,7 @@
         display: flex;
         justify-content: space-between;
         width: 100%;
+        height: 100px;
     }
 
     .header-mobile {
@@ -109,6 +110,7 @@
         justify-content: flex-end;
         align-items: flex-end;
         padding-bottom: 20px;
+        margin-top: 100px;
     }
 
     .conteiner-menu {
@@ -130,15 +132,43 @@
         padding-right: 25px;
     }
 
-    .menu-responsivo{
+
+
+    .header-mobile {
+        position: relative; /* Adicione essa propriedade para definir o contexto de posicionamento */
+    }
+    
+    .menu-responsivo {
         display: flex;
-        width: 100px;
-        height: 100px;
+        width: 40px;
+        height: 40px;
         background-image: url(../img/header/menu.png);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 40px;
+        background-size: 36px;
+        position: absolute;
+        top: 27px;
+        right: 20px;
+        cursor: pointer;
+        z-index: 1000;
     }
+    
+    .navbar-mobile {
+        display: none;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-bottom: 20px;
+        position: absolute; /* Torna o menu fixo */
+        top: 0; /* Coloca o menu no topo da tela */
+        right: 0; /* Coloca o menu no canto direito */
+        background-color: var(--color-Mainlight); /* Adapte a cor conforme necessário */
+        width: 100%; /* Faz o menu ocupar 100% da largura da tela */
+    }
+
+
+    
+    
 }
 
 @media (max-width: 900px) {
