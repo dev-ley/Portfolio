@@ -10,3 +10,9 @@ MenuResponsivo.addEventListener('click', function toggleElemento() {
     } 
     }
 )
+
+const btdownloadcurriculo = document.querySelector('#curriculo')
+
+btdownloadcurriculo.addEventListener('click', function() {
+    alert('Seu Download inicionou!');
+})

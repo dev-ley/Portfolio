@@ -15,7 +15,7 @@
         </div>
 
         <nav class="navbar">
-            <a href="#">Home</a><a href="#">Portfolio</a><a href="#">Skills</a><a href="#">About Me</a>
+            <a href="index.html">Home</a><a href="#Portfolio">Portfolio</a><a href="#Skills">Skills</a><a href="#About">About Me</a>
         </nav>
 
         <div class="bt-header-desktop">
@@ -37,7 +37,7 @@
 
         <nav class="navbar-mobile">
             <div class="conteiner-menu">
-                <a href="#">Home</a><a href="#">Portfolio</a><a href="#">Skills</a><a href="#">About Me</a>
+                <a href="index.html">Home</a><a href="#Portfolio">Portfolio</a><a href="#Skills">Skills</a><a href="#About">About Me</a>
             </div>
         </nav>
 
@@ -52,15 +52,15 @@
             </div>
 
             <div class="icons-Product">
-                <img src="img/product/instagram.svg" alt="Logo do instagram">
-                <img src="img/product/Figma.svg" alt="Logo do Figma">
-                <img src="img/product/linkedin.svg" alt="Logo do linkedin">
-                <img src="img/product/twitter.svg" alt="Logo do twitter">
-                <img src="img/product/telegram.svg" alt="Logo do telegram">
-                <img src="img/product/Medium Logo.svg" alt="Logo  do Medium">
+                <a target="_blank" href="https://www.instagram.com/"><img src="img/product/instagram.svg" alt="Logo do instagram"></a>
+                <a target="_blank" href="https://www.figma.com/"><img src="img/product/Figma.svg" alt="Logo do Figma"></a>
+                <a target="_blank" href="https://www.linkedin.com/"><img src="img/product/linkedin.svg" alt="Logo do linkedin"></a>
+                <a target="_blank" href="https://twitter.com/"><img src="img/product/twitter.svg" alt="Logo do twitter"></a>
+                <a target="_blank" href="https://web.telegram.org/"><img src="img/product/telegram.svg" alt="Logo do telegram"></a>
+                <a target="_blank" href="https://medium.com/"><img src="img/product/Medium Logo.svg" alt="Logo  do Medium"></a>
             </div>
 
-            <a href="#">
+            <a id="curriculo" href="download/Currículo A4 simples preto.pdf" target="_blank" download="download/Currículo A4 simples preto.pdf">
                 <div class="download-Product">
                     <p>Download Curriculum Vitae</p>
                     <img src="img/product/arrow-down.svg" alt="">
@@ -80,23 +80,23 @@
   <section class="RATES">
         <div class="conteiner-rates">
             <div>
-                <h3>90%</h3>
+                <h3><span id="contador1">0</span>%</h3>
                 <p>Job Success <br> Score on Upwork</p>
             </div>
             <img src="img/rates/Dawn.svg" alt="imagem de um solzinho">
             <div>
-                <h3>>25.000</h3>
+                <h3>><span id="contador2">0</span></h3>
                 <p>Duplicates on Figma <br> Community</p>
             </div>
             <img src="img/rates/Dawn.svg" alt="imagem de um solzinho">
             <div>
-                <h3>>2k</h3>
+                <h3>><span id="contador3">0</span>k</h3>
                 <p>In Finished <br> Works</p>
             </div>
         </div>
     </section>
 
-  <section class="PORTFOLIO">
+  <section id="Portfolio" class="PORTFOLIO">
         <h1>PORTFOLIO</h1>
         <div class="conteiner-portfolio">
             <div class="card">
@@ -150,7 +150,7 @@
         </div>
     </section>
 
-   <section class="SKILLS">
+   <section id="Skills" class="SKILLS">
         <h1>SKILLS</h1>
         <div class="conteiner-skill">
 
@@ -207,7 +207,7 @@
 
     </section>
 
-   <section class="ABOUT-ME">
+   <section id="About" class="ABOUT-ME">
         <div class="conteiner-about">
 
             <div class="conteiner1-about">
@@ -267,11 +267,12 @@
             </div>
 
             <nav class="footer-nav">
-                <a href="#">Home</a><a href="#">Portfolio</a><a href="#">Skills</a><a href="#">About Me</a>
+                <a href="">Home</a><a href="#Portfolio">Portfolio</a><a href="#Skills">Skills</a><a href="#About">About Me</a>
             </nav>
         </div>
         <hr>
     </footer>
     <script src="index.js"></script>
+    <script src="contagem-dinamica.js"></script>
 </body>
 </html>

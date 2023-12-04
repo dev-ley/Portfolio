@@ -12,6 +12,8 @@
     display: none;
 }
 
+
+
 .logo-top {
     display: flex;
     align-items: center;
@@ -50,6 +52,10 @@
     line-height: 20px;
     letter-spacing: -0.05em;
     text-align: left;
+}
+
+.navbar > a:hover {
+    color: aquamarine;
 }
 
 .bt-header-desktop{
@@ -135,7 +141,7 @@
 
 
     .header-mobile {
-        position: relative; /* Adicione essa propriedade para definir o contexto de posicionamento */
+        position: relative; 
     }
     
     .menu-responsivo {
@@ -159,11 +165,11 @@
         justify-content: flex-end;
         align-items: flex-end;
         padding-bottom: 20px;
-        position: absolute; /* Torna o menu fixo */
-        top: 0; /* Coloca o menu no topo da tela */
-        right: 0; /* Coloca o menu no canto direito */
-        background-color: var(--color-Mainlight); /* Adapte a cor conforme necessário */
-        width: 100%; /* Faz o menu ocupar 100% da largura da tela */
+        position: absolute; 
+        top: 0; 
+        right: 0; 
+        background-color: var(--color-Mainlight); 
+        width: 100%; 
     }
 
 
