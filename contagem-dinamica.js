@@ -56,7 +56,7 @@
 
  // Função para reiniciar o observador
  function reiniciarObservador() {
-     contadorInterval = setInterval(incrementarContador, 15);
+     contadorInterval = setInterval(incrementarContador, 30);
      contadorInterval2 = setInterval(incrementarContador2, 0.0001);
      contadorInterval3 = setInterval(incrementarContador3, 1000);
      

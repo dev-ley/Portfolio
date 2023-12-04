@@ -92,7 +92,7 @@
     }
 
     .card {
-        width: 500px;
+        width: auto;
         padding: 30px;
         border-radius: 10px;
         border: 1px solid #737373;
@@ -114,7 +114,7 @@
 
 
     .card {
-        width: 360px;
+        width: auto;
         padding: 30px;
         border-radius: 10px;
         border: 1px solid #737373;
