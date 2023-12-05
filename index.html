@@ -6,7 +6,7 @@
     <title>Tion</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="body">
 
     <header class="header-desktop">
         <div class="logo-top">
@@ -19,8 +19,14 @@
         </nav>
 
         <div class="bt-header-desktop">
-            <img src="img/header/switch-mode.png" alt="Butão de switch-mode">
-            <a href="#">Contact Me</a>
+            <div>
+                <input type="checkbox" class="checkbox" id="chk" />
+                <label class="label" for="chk">
+                    <img src="img/header/sun.svg" class="fas fa-sun"></img>
+                    <img src="img/header/moon.svg" class="fas fa-moon"></img>
+                  <div class="ball"></div>
+                </label>
+              </div>            <a href="#">Contact Me</a>
         </div>
     </header>
 

@@ -82,7 +82,7 @@
     letter-spacing: -0.05em;
     text-align: center;
     background-color: var(--color-Mainlight);
-    color: var(--color-white);
+    color: #fff;
     width: 100%;
     padding: 12px 24px;
     border: none;

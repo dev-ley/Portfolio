@@ -21,7 +21,7 @@
 
 .conteiner-testimony > h3 {
     font-family: var(--font-Principal);
-    color: var(--color-white);
+    color: white;
     font-size: 48px;
     font-weight: 600;
     line-height: 50px;
@@ -31,7 +31,7 @@
 
 .conteiner-testimony > p {
     font-family: var(--font-Principal);
-    color: var(--color-white);
+    color: white;
     font-size: 48px;
     font-style: italic;
     font-weight: 700;

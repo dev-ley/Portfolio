@@ -32,7 +32,7 @@
 
 .box-footer > p {
     padding: 61px 0px 68px 50px ;
-    color: var(--color-white);
+    color: white;
     font-family: var(--font-Secundaria);
     font-size: 22px;
     font-weight: 700;
@@ -58,7 +58,7 @@
 
 .footer-logo > h3 {
     font-family: var(--font-Principal);
-    color: var(--color-white);
+    color: white;
     font-size: 45px;
     font-weight: 700;
     line-height: 45px;
@@ -76,7 +76,7 @@
 .footer-nav > a {
     text-decoration: none;
     font-family: var(--font-Secundaria);
-    color: var(--color-white);
+    color: white;
     font-size: 20px;
     font-weight: 400;
     line-height: 20px;

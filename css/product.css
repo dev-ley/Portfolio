@@ -32,6 +32,7 @@
     line-height: 180px;
     letter-spacing: -0.03em;
     text-align: left;
+    color: var(--color-white);
 }
 
 .text-Product > h3 {
@@ -76,6 +77,7 @@
     line-height: 20px;
     letter-spacing: -0.05em;
     text-align: left;
+    color: white;
 }
 
 .download-Product > img {
