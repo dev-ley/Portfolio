@@ -13,8 +13,6 @@
     display: none;
 }
 
-
-
 .logo-top {
     display: flex;
     align-items: center;
@@ -26,6 +24,7 @@
 .logo-top > img {
     width: 27px;
     height: 27px;
+    color: black;
 }
 
 .logo-top > h1 {
@@ -85,23 +84,21 @@
   }
   
   .label {
-    background-color: #FFEC70;
-    border-radius: 50px;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-    padding: 5px;
-    position: relative;
-    height: 26px;
-    width: 52px;
-    transform: scale(1.2);
-  
-  }
-  
-  
-  .label .ball {
+      background-color: #FFEC70;
+      border-radius: 50px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px;
+      position: relative;
+      height: 26px;
+      width: 52px;
+      transform: scale(1.2);
+      
+    }
+    
+    .label .ball {
     background-color: #fff;
     border-radius: 50%;
     position: absolute;
@@ -111,8 +108,9 @@
     width: 22px;
     transform: translateX(0px);
     transition: transform 0.2s linear;
-  }
-  
+}
+
+
   .checkbox:checked + .label .ball {
     transform: translateX(26px);
   }
@@ -219,13 +217,9 @@
         width: 100%; 
     }
 
-
-    
-    
+    .change-mode {
+        height: 22px;
+        width: 79px;
+        padding: 5px 0;
+    }
 }
-
-@media (max-width: 900px) {
-
-
-}
-
