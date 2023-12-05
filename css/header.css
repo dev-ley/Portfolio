@@ -72,7 +72,7 @@
     letter-spacing: -0.05em;
     text-align: left;
     text-decoration: none;
-    color: var(--color-white);
+    color: white;
     background-color: var(--color-Destaque);
     border-radius: 4px;
     padding: 12px 24px;
@@ -84,7 +84,7 @@
   }
   
   .label {
-      background-color: #FFEC70;
+      background-color:var(--color-BtChanceBg);
       border-radius: 50px;
       cursor: pointer;
       display: flex;

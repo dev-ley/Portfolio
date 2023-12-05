@@ -17,7 +17,6 @@
      }
  }
 
-
  const numeros = 25000;
  let contadorAtual2 = 0;
  let contadorInterval2 = 100; // Declare a variável do intervalo fora da função
