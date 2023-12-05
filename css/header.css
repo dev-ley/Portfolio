@@ -129,6 +129,18 @@
         display: none;
     }
 
+    .label .ball {
+        background-color: transparent;
+        border-radius: 50%;
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        height: 22px;
+        width: 22px;
+        transform: translateX(0px);
+        transition: transform 0.2s linear;
+    }
+
     
 .logo-top {
     display: flex;
