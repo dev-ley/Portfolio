@@ -47,6 +47,10 @@
     --color-border: #E6E6E6;
     --color-BtChanceBg: #FFEC70;
     --color-Destaque: #925FF0;
+    --color-Ratesbg: #0B0B0B;
+    --color-Rates: #C8FEC7;
+
+
     background-color: var(--color-Bg);
     transition: 0.5s;
 }
@@ -56,7 +60,7 @@
     
     --color-Main: #fff;
     --color-Mainlight: #292929;
-    --color-Rates: #C8FEC7;
+    --color-Rates: #64C661;
     --color-Ratesbg: #F6FFF6;
     --color-Bg: #fff;
     --color-white: #292929;
