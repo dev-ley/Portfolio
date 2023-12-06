@@ -23,6 +23,52 @@
   ];
 
 
+
+
+  export function criarCardSkill () {
+
+    // Obtém o contêiner do portfolio
+    const skillContainer = document.getElementById('conteiner-skill');
+  
+    // Loop para criar os cards dinamicamente
+   dadosDosCardskill.forEach((dados) => {
+      // Cria um novo elemento div para o card
+      const cardElemento = document.createElement('div');
+      cardElemento.classList.add('card-skill');
+      cardElemento.classList.add('hidden');
+      skillContainer.appendChild(cardElemento)
+  
+      // Adiciona a graph
+      const graph = document.createElement('div');
+      graph.classList.add('skill-graph');
+      cardElemento.appendChild(graph);
+  
+      // Adiciona o porcentagem
+      const tituloElemento = document.createElement('h4');
+      tituloElemento.textContent = dados.porcentagem;
+      graph.appendChild(tituloElemento);
+  
+      // Adiciona as categorias
+        const conteinertext = document.createElement('div');
+        conteinertext.classList.add('skill-text');
+        cardElemento.appendChild(conteinertext);
+  
+      // Adiciona o botão
+      const textitulo = document.createElement('h4');
+      textitulo.textContent = dados.titulo;
+      conteinertext.appendChild(textitulo);
+
+      // Adiciona o botão
+      const texpagraph = document.createElement('p');
+      texpagraph.textContent = dados.texto;
+      conteinertext.appendChild(texpagraph);
+  
+      // Adiciona o card ao contêiner do portfolio
+      skillContainer.appendChild(cardElemento);
+    });
+  }
+
+
   //Função pro Observador
 export  const anime = () => {
 
@@ -42,3 +88,5 @@ export  const anime = () => {
   cards.forEach((card) => cardObserver.observe(card))
   
 }
+
+criarCardSkill()
