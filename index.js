@@ -1,18 +1,13 @@
+import { criarCard } from "./cards-portfolio.js"
+import { anime } from "./cards-skill.js"
+import { incrementarContador } from "./contagem-dinamica.js"
+import { incrementarContador2 } from "./contagem-dinamica.js"
+import { incrementarContador3 } from "./contagem-dinamica.js"
+
 
 //  Menu Responsivo 
 
-const MenuResponsivo = document.querySelector('.menu-responsivo')
-const Menu = document.querySelector('.navbar-mobile')
-
-MenuResponsivo.addEventListener('click', function toggleElemento() {
-
-    if (Menu.style.display === 'none' || Menu.style.display === '') {
-        Menu.style.display = 'flex';
-    } else {
-        Menu.style.display = 'none';
-    } 
-    }
-)
+MenuResponsivo()
 
 // Alert De Download
 const btdownloadcurriculo = document.querySelector('#curriculo')
@@ -29,3 +24,27 @@ chk.addEventListener('change', () => {
   document.body.classList.toggle('dark')
 
 })
+
+
+incrementarContador()
+incrementarContador2()
+incrementarContador3()
+criarCard()
+anime()
+
+
+
+export function MenuResponsivo() {
+    const MenuResponsivo = document.querySelector('.menu-responsivo')
+    const Menu = document.querySelector('.navbar-mobile')
+    
+    MenuResponsivo.addEventListener('click', function toggleElemento() {
+    
+        if (Menu.style.display === 'none' || Menu.style.display === '') {
+            Menu.style.display = 'flex';
+        } else {
+            Menu.style.display = 'none';
+        } 
+        }
+    )
+    }

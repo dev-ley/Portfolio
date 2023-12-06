@@ -1,6 +1,6 @@
   // Array de objetos representando os dados para cada card
 
-const dadosDosCardskill = [
+  const dadosDosCardskill = [
     {
       titulo: 'UX Design',
       texto: 'UI design is the process of designing the visual and interactive elements of a user interface, such as buttons, icons, and layout, to create an intuitive and pleasing experience for users.',
@@ -19,33 +19,26 @@ const dadosDosCardskill = [
       porcentagem: '90%'
 
     },
-   
     // Adicione mais objetos para representar mais projetos
   ];
 
+
+  //Função pro Observador
+export  const anime = () => {
+
+  const cardObserver = new IntersectionObserver((elements) => { //localizando o elemento
+    elements.forEach ( (element) => {
+      if (element.isIntersecting) { //se o elemento atravessar faça 
+        element.target.classList.add('show')
   
-// Criação do elemento skill-graph
-const skillGraphContainer = document.createElement('div');
-skillGraphContainer.classList.add('skill-graph');
+      } else {
+        element.target.classList.remove('show')
+  
+      }
+    })
+  })
 
-const skillGraphPercentage = document.createElement('h4');
-skillGraphPercentage.textContent = '97%';
-
-skillGraphContainer.appendChild(skillGraphPercentage);
-
-// Criação do elemento skill-text
-const skillTextContainer = document.createElement('div');
-skillTextContainer.classList.add('skill-text');
-
-const skillTextTitle = document.createElement('h4');
-skillTextTitle.textContent = 'UX Design';
-
-const skillTextDescription = document.createElement('p');
-skillTextDescription.textContent = 'UI design is the process of designing the visual and interactive elements of a user interface, such as buttons, icons, and layout, to create an intuitive and pleasing experience for users.';
-
-skillTextContainer.appendChild(skillTextTitle);
-skillTextContainer.appendChild(skillTextDescription);
-
-// Adiciona os elementos ao body ou ao elemento pai desejado
-document.body.appendChild(skillGraphContainer);
-document.body.appendChild(skillTextContainer);
+  const cards = document.querySelectorAll('.hidden') //elemento a ser observado
+  cards.forEach((card) => cardObserver.observe(card))
+  
+}

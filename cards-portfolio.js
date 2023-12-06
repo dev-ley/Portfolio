@@ -1,6 +1,7 @@
+
   // Array de objetos representando os dados para cada card
 
-const dadosDosCards = [
+  const dadosDosCards = [
     {
       imagemSrc: 'img/portfolio/portfolioimg.png',
       titulo: 'Mi portal U',
@@ -29,6 +30,9 @@ const dadosDosCards = [
   ];
 
   
+
+  export function criarCard () {
+
   // Obtém o contêiner do portfolio
   const portfolioContainer = document.getElementById('portfolio-container');
 
@@ -37,6 +41,8 @@ const dadosDosCards = [
     // Cria um novo elemento div para o card
     const cardElemento = document.createElement('div');
     cardElemento.classList.add('card');
+    cardElemento.classList.add('hidden');
+
 
     // Adiciona a imagem
     const imagemElemento = document.createElement('img');
@@ -65,23 +71,4 @@ const dadosDosCards = [
     portfolioContainer.appendChild(cardElemento);
   });
 
-  function handleIntersection(entries, observer) {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        cardElemento.classList.add('visible');
-        observer.unobserve(entry.target);
-      }
-    });
   }
-  
-  // Configuração do Intersection Observer
-  const observerOptions = {
-    root: null,
-    threshold: 0.5,
-  };
-  
-  // Criação do Intersection Observer
-  const observer = new IntersectionObserver(handleIntersection, observerOptions);
-  
-  // Adiciona o elemento ao Intersection Observer
-  observer.observe(cardElemento);
