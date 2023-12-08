@@ -55,7 +55,7 @@
     padding: 70px 0px 40px 0px;
 }
 
-.icons-Product > a > img:hover{ 
+.icons-Product > a > svg:hover{ 
     background: #552655;
     border-radius: 10px;
     transition: 0.2s;
@@ -97,6 +97,7 @@
     width: 100%;
     min-width: 90px;
 }
+
 
 .conteiner3-Product {
     display: flex;

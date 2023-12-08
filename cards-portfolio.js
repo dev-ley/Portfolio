@@ -34,11 +34,15 @@
   export function criarCard () {
 
   // Obtém o contêiner do portfolio
+
   const portfolioContainer = document.getElementById('portfolio-container');
 
   // Loop para criar os cards dinamicamente
   dadosDosCards.forEach((dados) => {
     // Cria um novo elemento div para o card
+    
+
+
     const cardElemento = document.createElement('div');
     cardElemento.classList.add('card');
     cardElemento.classList.add('hidden');
@@ -68,7 +72,14 @@
     cardElemento.appendChild(buttonElement);
 
     // Adiciona o card ao contêiner do portfolio
-    portfolioContainer.appendChild(cardElemento);
+    const linkCard = document.createElement('a')
+    linkCard.href = '#';
+    portfolioContainer.appendChild(linkCard)
+
+    linkCard.appendChild(cardElemento);
+
+    
+
   });
 
   }
