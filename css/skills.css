@@ -195,24 +195,14 @@
     width: 220px;
     border-radius: 50%;
     padding: 20px;
-    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
-                 -6px -6px 10px -1px rgba(225,225,225,0.7)
-
 }
 .inner {
-
-    height: 180px;
-    width: 180px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
-    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.15),
-                inset -4px -4px 6px -1px rgba(225,225,225,0.7),
-                 -0.5px -0.5px 0px rgba(225,225,225,1),
-                  0.5px  0.5px 0px rgba(0,0,0,0.15),
-                  0px 12px 10px -10px rgba(0,0,0,0.05);
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 #number{
@@ -226,9 +216,9 @@ circle {
     stroke-width: 30px;
     stroke-dasharray: 700;
     stroke-dashoffset: 800;
-    animation: anim 2s linear forwards;
-    cx: 108;
-    cy: 108;
+    animation: anim 3s linear forwards;
+    cx: 115;
+    cy: 116;
     r: 97;
 }
 
@@ -242,13 +232,13 @@ circle {
     color: white;
 }
 
- .skill > svg{
 
+.skill > svg {
     position: absolute;
     top: 0;
     left: 0;
-    width: 220px;
-    height: 220px;
+    width: 240px;
+    height: 240px;
 }
 
 @keyframes anim {

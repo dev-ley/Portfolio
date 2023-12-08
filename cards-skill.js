@@ -4,7 +4,7 @@
     {
       titulo: 'UX Design',
       texto: 'UI design is the process of designing the visual and interactive elements of a user interface, such as buttons, icons, and layout, to create an intuitive and pleasing experience for users.',
-      porcentagem: '97'
+      porcentagem: '96'
 
     },
     {
@@ -22,7 +22,7 @@
     {
       titulo: 'Information Architecture',
       texto: 'Information architecture is the design of the structure and organization of content on a website or digital product to make it easy for users to navigate and understand.',
-      porcentagem: '90'
+      porcentagem: '96'
 
     },
     // Adicione mais objetos para representar mais projetos
@@ -58,7 +58,7 @@
     // Criação do elemento div com o id "number"
     const numberElemento = document.createElement('div');
     numberElemento.id = 'number';
-    numberElemento.textContent = `${dados.porcentagem}%`;
+    
 
     // Adiciona o elemento div com o id "number" como filho do elemento "inner"
     innerElemento.appendChild(numberElemento);
@@ -137,6 +137,19 @@
   
       // Adiciona o card ao contêiner do portfolio
       skillContainer.appendChild(cardElemento);
+    
+
+      let number = dados.porcentagem
+      let counter = 0;
+      setInterval(() => {
+
+    if (counter == dados.porcentagem) {
+        clearInterval();
+    } else {
+        counter +=1;
+        numberElemento.textContent = counter + '%';
+    }
+}, 20);
     });
   }
 
@@ -160,5 +173,9 @@ export  const anime = () => {
   cards.forEach((card) => cardObserver.observe(card))
   
 }
+
+
+
+
 
 criarCardSkill()
