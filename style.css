@@ -49,8 +49,6 @@
     --color-Destaque: #925FF0;
     --color-Ratesbg: #0B0B0B;
     --color-Rates: #C8FEC7;
-
-
     background-color: var(--color-Bg);
     transition: 0.5s;
 }
