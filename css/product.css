@@ -198,6 +198,8 @@
         color: white;
     }
 
+
+
     .text-Product > h2 {
         font-family: var(--font-Terciaria);
         font-size: 110px;
@@ -232,7 +234,19 @@
         letter-spacing: -0.03em;
         text-align: center;
     }
-    }
 
+    .icons-Product > a {
+        
+        width: 40px;
+        height: 40px;
+
+    }
+    .icons-Product > a > svg {
+
+        width: 40px;
+        height: 40px;
+
+    }
+    
 
 }

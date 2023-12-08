@@ -163,5 +163,34 @@
         padding-top: 33px;
         padding-bottom: 26px;
     }
+    .footer-nav > a {
+     text-wrap: nowrap;
+    }
 }
 
+
+@media (max-width: 379px) {
+
+    .box-footer > p {
+        padding: 28px 0px 68px 17px;
+        font-family: var(--font-Secundaria);
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 12px;
+        letter-spacing: -0.05em;
+        text-align: left;
+    }
+
+    
+    .footer-nav {
+        display: flex;
+        width: 360px;
+        height: 20px;
+        gap: 23px;
+        padding-top: 33px;
+        padding-bottom: 26px;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

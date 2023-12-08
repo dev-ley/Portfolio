@@ -36,6 +36,7 @@ anime()
 
 export function MenuResponsivo() {
     const MenuResponsivo = document.querySelector('.menu-responsivo')
+    const links = document.querySelector('.conteiner-menu')
     const Menu = document.querySelector('.navbar-mobile')
     
     MenuResponsivo.addEventListener('click', function toggleElemento() {
@@ -45,6 +46,13 @@ export function MenuResponsivo() {
         } else {
             Menu.style.display = 'none';
         } 
-        }
-    )
-    }
+    })
+
+    links.addEventListener('click', () => {
+
+        Menu.style.display = 'none';
+
+    })
+    
+}
+

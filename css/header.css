@@ -196,12 +196,11 @@
         color: white;
         text-decoration: none;
         text-align: left;
-        width: 214px;
+        width: 135px;
         font-size: 22px;
         align-items: flex-end;
         padding-right: 25px;
     }
-
 
 
     .header-mobile {
@@ -237,8 +236,15 @@
     }
 
     .change-mode {
-        height: 22px;
-        width: 79px;
-        padding: 5px 0;
+
+        width: 82px;
+        padding: 20px 0 0 0;
     }
+}
+
+
+@media (max-width: 379px) {
+
+
+
 }
