@@ -5,6 +5,7 @@
     padding: 0px 80px 200px 80px;
 }
 
+
 .SKILLS > h1 {
     font-family: var(--font-Terciaria);
     color: var( --color-white);
@@ -177,4 +178,82 @@
     padding: 0 10px;
 }
 
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 220px;
+    position: relative;
+}
+
+.outer {
+
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                 -6px -6px 10px -1px rgba(225,225,225,0.7)
+
+}
+.inner {
+
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.15),
+                inset -4px -4px 6px -1px rgba(225,225,225,0.7),
+                 -0.5px -0.5px 0px rgba(225,225,225,1),
+                  0.5px  0.5px 0px rgba(0,0,0,0.15),
+                  0px 12px 10px -10px rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#number{
+    font-weight: 600px;
+    color: red;
+
+}
+
+circle {
+    fill: none;
+    stroke-width: 30px;
+    stroke-dasharray: 700;
+    stroke-dashoffset: 800;
+    animation: anim 2s linear forwards;
+    cx: 108;
+    cy: 108;
+    r: 97;
+}
+
+#number {
+    font-family: var(--font-Terciaria) ;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    color: white;
+}
+
+ .skill > svg{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 220px;
+}
+
+@keyframes anim {
+    100% {
+        stroke-dashoffset: 165; /*  65% do circulo
+                                    100% = 470*/
+    }
 }
