@@ -197,7 +197,6 @@ const conte = () => {
         } else { //Faça a Ação quando sair da Vista 
 
           circle.classList.remove('circle'); // Substitua 'newClass' pelo nome da nova classe desejada
-          console.log('bye');
         }
       });
     });

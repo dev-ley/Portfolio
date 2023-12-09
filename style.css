@@ -39,8 +39,6 @@
 }
 
 .body {
-
-
     --color-Main: #000000;
     --color-Bg: #000000;
     --color-white: #ffffff;
@@ -54,8 +52,6 @@
 }
 
 .body.dark {
-
-    
     --color-Main: #fff;
     --color-Mainlight: #292929;
     --color-Rates: #64C661;
@@ -65,8 +61,4 @@
     --color-Mainlightbd: #000000;
     --color-BtChanceBg: #051724;
     --color-Destaque: #292929;
-
-
-
-    
 }
