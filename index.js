@@ -1,8 +1,8 @@
-import { criarCard } from "./cards-portfolio.js"
-import { anime } from "./cards-skill.js"
-import { incrementarContador } from "./contagem-dinamica.js"
-import { incrementarContador2 } from "./contagem-dinamica.js"
-import { incrementarContador3 } from "./contagem-dinamica.js"
+import { criarCard } from "./js/cards-portfolio.js"
+import { anime } from "./js/cards-skill.js"
+import { incrementarContador } from "./js/contagem-dinamica.js"
+import { incrementarContador2 } from "./js/contagem-dinamica.js"
+import { incrementarContador3 } from "./js/contagem-dinamica.js"
 
 
 //  Menu Responsivo 

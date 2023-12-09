@@ -230,7 +230,7 @@
     line-height: 36px;
     letter-spacing: -0.05em;
     text-align: left;
-    color: white;
+    color: var(--color-white);
 }
 
 
