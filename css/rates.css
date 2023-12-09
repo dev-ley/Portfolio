@@ -46,23 +46,14 @@
     .RATES {
         padding-top: 236px;
         height: 392px;
-        color: var(--color-Rates);
     }
 
     .conteiner-rates {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 95%;
-        border: 1px solid var(--color-Mainlightbd);
-        margin: 0 auto;
-        border-radius: 29px;
         height: 307px;
     }
 
     .conteiner-rates > div > h3 {
         font-size: 64px;
-        font-weight: 400;
         line-height: 58px;
         letter-spacing: 0em;
         text-align: center;
@@ -84,11 +75,9 @@
 
 @media (max-width: 900px) {
 
-    
     .RATES {
         padding-top: 0px;
         height: 392px;
-        color: var(--color-Rates);
     }
 
     .conteiner-rates {
@@ -98,27 +87,11 @@
         align-items: center;
         width: 95%;
         gap: 36px;
-        border: 1px solid var(--color-Mainlightbd);
-        margin: 0 auto;
-        border-radius: 29px;
         height: 821px;
     }
 
     .conteiner-rates > div > h3 {
-        font-size: 64px;
         font-weight: 400;
-        line-height: 58px;
-        letter-spacing: 0em;
-        text-align: center;
-        padding-bottom: 21px;
-    }
-
-    .conteiner-rates > div > p {
-        font-size: 22px;
-        font-weight: 700;
-        line-height: 22px;
-        letter-spacing: -0.05em;
-        text-align: center;
     }
 
     .conteiner-rates > img {
