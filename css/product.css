@@ -98,156 +98,87 @@
     min-width: 90px;
 }
 
-
 .conteiner3-Product {
     display: flex;
     flex-direction: column;
     max-width: 694px;
 }
+
 .conteiner3-Product > img{
     width: 100%;
     min-width: 400px;
     height: 700px;
 }
 
-
-
-
 @media (max-width: 1400px) {
 
-    .PRODUCT {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        max-width: 1728px;
-        padding: 60px 100px 0px 100px;
-        margin: 0 auto;
-        color: white;
-    }
-
     .text-Product > h2 {
-        font-family: var(--font-Terciaria);
         font-size: 140px;
-        text-wrap: wrap;
-        font-weight: 400;
         line-height: 130px;
-        letter-spacing: -0.03em;
         text-align: start;
     }
-
-    .conteiner1-Product {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        max-width: 660px;
-        min-width: 200px;
-        height: 695px;
-    }
-
 }
 
-
 @media (max-width: 1200px) {
+
     .conteiner2-Product {
         display: none;
     }
 
     .conteiner3-Product {
-        display: flex;
-        flex-direction: column;
-        max-width: 694px;
         padding-left: 20px;
     }
-
-    
-
 }
 
 
 @media (max-width: 1060px) {
 
-    
     .conteiner3-Product {
         display: none;
     }
+
     .text-Product > h2 {
-        font-family: var(--font-Terciaria);
         font-size: 200px;
-        text-wrap: wrap;
-        font-weight: 400;
         line-height: 180px;
-        letter-spacing: -0.03em;
         text-align: start;
     }
-
 }
-
 
 @media (max-width: 900px) {
 
-
     .PRODUCT {
-        display: flex;
-        align-items: center;
         justify-content: center;
-        width: 100%;
-        max-width: 1728px;
         padding: 60px 30px 0px 30px;
-        margin: 0 auto;
-        color: white;
     }
 
-
-
     .text-Product > h2 {
-        font-family: var(--font-Terciaria);
         font-size: 110px;
-        text-wrap: wrap;
-        font-weight: 400;
         line-height: 99px;
-        letter-spacing: -0.03em;
         text-align: center;
     }
 
     .text-Product > h3 {
-        padding-top: 20px;
-        font-family: var(--font-Terciaria);
         font-size: 64px;
-        font-weight: 400;
         line-height: 58px;
-        letter-spacing: -0.03em;
         text-align: center;
-        background: linear-gradient(to right, #FA709A, #FEE140);
-        -webkit-background-clip: text;
-        color: transparent;
     }
+}
 
-    @media (max-width: 430px) {
+@media (max-width: 430px) {
 
   .text-Product > h2 {
-        font-family: var(--font-Terciaria);
         font-size: 90px;
-        text-wrap: wrap;
-        font-weight: 400;
         line-height: 99px;
-        letter-spacing: -0.03em;
         text-align: center;
     }
 
     .icons-Product > a {
-        
         width: 40px;
         height: 40px;
-
     }
+
     .icons-Product > a > svg {
-
         width: 40px;
         height: 40px;
-
     }
-    
-
 }
