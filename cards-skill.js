@@ -4,13 +4,13 @@
     {
       titulo: 'UX Design',
       texto: 'UI design is the process of designing the visual and interactive elements of a user interface, such as buttons, icons, and layout, to create an intuitive and pleasing experience for users.',
-      porcentagem: '96'
+      porcentagem: '98'
 
     },
     {
       titulo: 'UI Design',
       texto: 'UI design is the process of designing the visual and interactive elements of a user interface, such as buttons, icons, and layout, to create an intuitive and pleasing experience for users.',
-      porcentagem: '96'
+      porcentagem: '97'
 
     },
     {
@@ -101,6 +101,7 @@
 
     // Criação do círculo no SVG
     const circleElemento = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    circleElemento.classList.add('circle')
     circleElemento.setAttribute('cx', '0');
     circleElemento.setAttribute('cy', '0');
     circleElemento.setAttribute('r', '0');
@@ -138,20 +139,10 @@
       // Adiciona o card ao contêiner do portfolio
       skillContainer.appendChild(cardElemento);
     
-
-      let number = dados.porcentagem
-      let counter = 0;
-      setInterval(() => {
-
-    if (counter == dados.porcentagem) {
-        clearInterval();
-    } else {
-        counter +=1;
-        numberElemento.textContent = counter + '%';
-    }
-}, 20);
     });
   }
+
+
 
 
   //Função pro Observador
@@ -174,8 +165,46 @@ export  const anime = () => {
   
 }
 
-
-
-
-
 criarCardSkill()
+
+// ...
+
+const conte = () => {
+  // Seleciona todos os elementos com a classe 'circle'
+  let circles = document.querySelectorAll('.circle');
+
+  const cardskillObserver = new IntersectionObserver((elements) => {
+    // Itera sobre cada elemento
+    elements.forEach((element) => {
+      circles.forEach(circle => {
+        if (element.isIntersecting) {  //faça a Ação quando cruzar
+
+          let numbers = document.querySelectorAll('#number');
+          circle.classList.add('circle'); 
+
+          numbers.forEach((number, index) => {
+            let counter = 0;
+            const counterInterval = setInterval(() => {
+              const dados = dadosDosCardskill[index]; // Obtém os dados do card atual
+              if (counter === parseInt(dados.porcentagem)) {
+                clearInterval(counterInterval);
+              } else {
+                counter += 1;
+                number.textContent = counter + "%";
+              }
+            }, 20);
+          });
+        } else { //Faça a Ação quando sair da Vista 
+
+          circle.classList.remove('circle'); // Substitua 'newClass' pelo nome da nova classe desejada
+          console.log('bye');
+        }
+      });
+    });
+  });
+
+  const cardvista = document.querySelector('#Skills'); // elemento a ser observado
+  cardskillObserver.observe(cardvista);
+}
+
+conte();

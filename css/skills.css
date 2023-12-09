@@ -211,7 +211,7 @@
 
 }
 
-circle {
+.circle {
     fill: none;
     stroke-width: 30px;
     stroke-dasharray: 700;
@@ -221,6 +221,7 @@ circle {
     cy: 116;
     r: 97;
 }
+
 
 #number {
     font-family: var(--font-Terciaria) ;
