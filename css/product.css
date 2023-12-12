@@ -1,7 +1,7 @@
 .PRODUCT {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     max-width: 1728px;
     padding: 60px 100px 0px 100px;

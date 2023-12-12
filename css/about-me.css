@@ -5,7 +5,6 @@
     width: 100%;
     max-width: 1757px;
     flex-direction: column;
-    
 }
 
 .conteiner-about {
@@ -261,7 +260,7 @@
         letter-spacing: -0.05em;
         text-align: right;
     }
-    
+
     .conteiner3-about {
         display: flex;
         width: 100%;
