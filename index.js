@@ -1,12 +1,10 @@
+import { MenuResponsivo } from "./js/responsivo.js"
 import { criarCard } from "./js/cards-portfolio.js"
 import { anime } from "./js/cards-skill.js"
-import { incrementarContador } from "./js/contagem-dinamica.js"
-import { incrementarContador2 } from "./js/contagem-dinamica.js"
-import { incrementarContador3 } from "./js/contagem-dinamica.js"
+import { contagemDinamica } from "./js/contagem-dinamica.js"
 
 
 //  Menu Responsivo 
-
 MenuResponsivo()
 
 // Alert De Download
@@ -25,34 +23,7 @@ chk.addEventListener('change', () => {
 
 })
 
-
-incrementarContador()
-incrementarContador2()
-incrementarContador3()
+contagemDinamica()
 criarCard()
 anime()
-
-
-
-export function MenuResponsivo() {
-    const MenuResponsivo = document.querySelector('.menu-responsivo')
-    const links = document.querySelector('.conteiner-menu')
-    const Menu = document.querySelector('.navbar-mobile')
-    
-    MenuResponsivo.addEventListener('click', function toggleElemento() {
-    
-        if (Menu.style.display === 'none' || Menu.style.display === '') {
-            Menu.style.display = 'flex';
-        } else {
-            Menu.style.display = 'none';
-        } 
-    })
-
-    links.addEventListener('click', () => {
-
-        Menu.style.display = 'none';
-
-    })
-    
-}
 

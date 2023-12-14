@@ -27,7 +27,7 @@
 .text-Product > h2 {
     font-family: var(--font-Terciaria);
     font-size: 200px;
-    text-wrap: wrap;
+    text-wrap: wrap;x
     font-weight: 400;
     line-height: 180px;
     letter-spacing: -0.03em;

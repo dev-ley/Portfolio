@@ -1,3 +1,5 @@
+export function contagemDinamica () {
+
 // Número para o qual você quer contar
 const porcentagem = 90;
 let contadorAtual = 0;
@@ -7,7 +9,7 @@ let contadorInterval; // Declare a variável do intervalo fora da função
 const contadorElemento1 = document.getElementById('contador1');
 
 // Função para incrementar o contador
-export function incrementarContador() {
+ function incrementarContador() {
     contadorAtual++;
     contadorElemento1.textContent = contadorAtual;
 
@@ -24,7 +26,7 @@ let contadorInterval2 = 100; // Declare a variável do intervalo fora da funçã
 const contadorElemento2 = document.getElementById('contador2');
 
 // Função para incrementar o contador
-export function incrementarContador2() {
+ function incrementarContador2() {
     contadorAtual2 = contadorAtual2 + 50;
     contadorElemento2.textContent = contadorAtual2.toLocaleString('pt-BR');
 
@@ -41,7 +43,7 @@ let contadorInterval3; // Declare a variável do intervalo fora da função
 const contadorElemento3 = document.getElementById('contador3');
 
 // Função para incrementar o contador
-export function incrementarContador3() {
+ function incrementarContador3() {
     contadorAtual3++;
     contadorElemento3.textContent = contadorAtual3;
 
@@ -74,4 +76,4 @@ const contadorObserver = new IntersectionObserver((entries, observer) => {
 
 contadorObserver.observe(contadorElemento1);
 
-
+}
