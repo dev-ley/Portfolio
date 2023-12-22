@@ -1,4 +1,4 @@
-# Site Dinamico com Animações em JavaScript
+# Site Dinâmico com Animações em JavaScript
 
 ## Visão Geral
 
