@@ -40,13 +40,10 @@
   // Loop para criar os cards dinamicamente
   dadosDosCards.forEach((dados) => {
     // Cria um novo elemento div para o card
-    
-
 
     const cardElemento = document.createElement('div');
     cardElemento.classList.add('card');
     cardElemento.classList.add('hidden');
-
 
     // Adiciona a imagem
     const imagemElemento = document.createElement('img');
