@@ -29,7 +29,7 @@
       titulo: 'Mi portal U',
       categorias: ['Html', 'Css', 'JavaScript'],
       link: 'Acesse aqui',
-      href: 'https://www.google.com/'
+      href: '#'
     },
     // Adicione mais objetos para representar mais projetos
   ];
