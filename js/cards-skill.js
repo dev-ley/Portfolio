@@ -2,26 +2,26 @@
 
   const dadosDosCardskill = [
     {
-      titulo: 'UX Design',
-      texto: 'UI design is the process of designing the visual and interactive elements of a user interface, such as buttons, icons, and layout, to create an intuitive and pleasing experience for users.',
+      titulo: 'Html',
+      texto: "I've learned the importance of semantic HTML for improving SEO and website accessibility. Now, I structure content in a clearer and more understandable way for search engines and users.",
       porcentagem: '98'
 
     },
     {
-      titulo: 'UI Design',
-      texto: 'UI design is the process of designing the visual and interactive elements of a user interface, such as buttons, icons, and layout, to create an intuitive and pleasing experience for users.',
+      titulo: 'Css',
+      texto: "I've mastered CSS and understand its crucial role in styling web pages effectively. By applying CSS rules efficiently, I can create visually appealing and responsive designs that enhance the user experience across various devices.",
       porcentagem: '97'
 
     },
     {
-      titulo: 'UI Design',
-      texto: 'UI design is the process of designing the visual and interactive elements of a user interface, such as buttons, icons, and layout, to create an intuitive and pleasing experience for users.',
+      titulo: 'JavaScript',
+      texto: "I've become proficient in JavaScript and recognize its power in creating dynamic and interactive web experiences. By leveraging JavaScript, I can develop functionalities that respond to user actions, manipulate DOM elements, and enhance the overall functionality of web applications.",
       porcentagem: '96'
 
     },
     {
-      titulo: 'Information Architecture',
-      texto: 'Information architecture is the design of the structure and organization of content on a website or digital product to make it easy for users to navigate and understand.',
+      titulo: 'React',
+      texto: "I've delved into React and appreciate its efficiency in building modern, interactive user interfaces. With React, I can create reusable UI components, manage state effectively, and optimize performance for complex web applications.",
       porcentagem: '96'
 
     },
