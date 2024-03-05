@@ -92,6 +92,11 @@
     width: 100%;
     padding: 12px 24px;
     border: none;
+    cursor: pointer;
+}
+
+.card > button:hover {
+    background-color: var(--color-Destaque3);
 }
 
 @media (max-width: 900px) {
