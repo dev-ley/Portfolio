@@ -136,7 +136,7 @@
 @media (max-width: 1060px) {
 
     .conteiner3-Product {
-        display: none;
+        display: block;
     }
 
     .text-Product > h2 {
