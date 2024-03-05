@@ -124,7 +124,7 @@
 @media (max-width: 1200px) {
 
     .conteiner2-Product {
-        display: none;
+        display: block;
     }
 
     .conteiner3-Product {
