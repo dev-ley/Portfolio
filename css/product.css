@@ -119,6 +119,8 @@
         line-height: 130px;
         text-align: start;
     }
+
+
 }
 
 @media (max-width: 1200px) {
@@ -130,6 +132,34 @@
     .conteiner3-Product {
         padding-left: 20px;
     }
+
+    .icons-Product {
+        display: flex;
+        justify-content: space-between;
+        max-width: 660px;
+        padding: 40px 0px 40px 0px;
+    }
+    
+    .text-Product > h2 {
+        font-size: 97px;
+        line-height: 130px;
+        text-align: start;
+    }
+    
+    .text-Product > h3 {
+        padding-top: 0px;
+        font-family: var(--font-Terciaria);
+        font-size: 89px;
+        font-weight: 400;
+        line-height: 103px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        background: linear-gradient(to right, #FA709A, #FEE140);
+        -webkit-background-clip: text;
+        color: transparent;
+        height: 120px;
+    }
+
 }
 
 
