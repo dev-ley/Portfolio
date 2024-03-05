@@ -96,7 +96,6 @@
     .footer-logo {
         display: flex;
         align-items: center;
-        width: 123px;
         height: 45px;
         gap: 8px;
     }
