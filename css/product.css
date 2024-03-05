@@ -144,7 +144,7 @@
 @media (max-width: 1060px) {
 
     .conteiner3-Product {
-        display: block;
+        display: none;
     }
 
     .icons-Product {
