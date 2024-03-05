@@ -7,6 +7,7 @@
     padding: 60px 100px 0px 100px;
     margin: 0 auto;
     color: white;
+    gap: 40px;
 }
 
 .conteiner1-Product {
@@ -26,7 +27,7 @@
 
 .text-Product > h2 {
     font-family: var(--font-Terciaria);
-    font-size: 200px;
+    font-size: 150px;
     text-wrap: wrap;
     font-weight: 400;
     line-height: 180px;
@@ -36,9 +37,9 @@
 }
 
 .text-Product > h3 {
-    padding-top: 20px;
+    padding-top: 0px;
     font-family: var(--font-Terciaria);
-    font-size: 114px;
+    font-size: 104px;
     font-weight: 400;
     line-height: 103px;
     letter-spacing: -0.03em;
@@ -46,6 +47,7 @@
     background: linear-gradient(to right, #FA709A, #FEE140);
     -webkit-background-clip: text;
     color: transparent;
+    height: 120px;
 }
 
 .icons-Product {
@@ -113,7 +115,7 @@
 @media (max-width: 1400px) {
 
     .text-Product > h2 {
-        font-size: 140px;
+        font-size: 120px;
         line-height: 130px;
         text-align: start;
     }

@@ -3,28 +3,33 @@
 
   const dadosDosCards = [
     {
-      imagemSrc: 'img/portfolio/portfolioimg.png',
-      titulo: 'Mi portal U',
-      categorias: ['UX Design', 'University', 'JavaScript'],
-      link: 'Figma community'
+      imagemSrc: 'img/portfolio/Portifolio Wesley.jpg',
+      titulo: 'Portifolio',
+      categorias: ['Html', 'Css', 'JavaScript'],
+      link: 'Acesse aqui',
+      href: 'https://www.google.com/'
+    },
+    {
+      imagemSrc: 'img/portfolio/figmaland.png',
+      titulo: 'Site Figma-Land ',
+      categorias: ['Html', 'Css', 'JavaScript'],
+      link: 'Acesse aqui',
+      href: 'https://lp-dark.vercel.app/'
+      
+    },
+    {
+      imagemSrc: 'img/portfolio/whitepace.jpeg',
+      titulo: 'Site Whitepace',
+      categorias: ['Html', 'Css', 'JavaScript'],
+      link: 'Acesse aqui',
+      href: 'https://landingpage-whitepace.vercel.app/'
     },
     {
       imagemSrc: 'img/portfolio/portfolioimg.png',
       titulo: 'Mi portal U',
-      categorias: ['UX Design', 'University', 'JavaScript'],
-      link: 'Figma community'
-    },
-    {
-      imagemSrc: 'img/portfolio/portfolioimg.png',
-      titulo: 'Mi portal U',
-      categorias: ['UX Design', 'University', 'JavaScript'],
-      link: 'Figma community'
-    },
-    {
-      imagemSrc: 'img/portfolio/portfolioimg.png',
-      titulo: 'Mi portal U',
-      categorias: ['UX Design', 'University', 'JavaScript'],
-      link: 'Figma community'
+      categorias: ['Html', 'Css', 'JavaScript'],
+      link: 'Acesse aqui',
+      href: 'https://www.google.com/'
     },
     // Adicione mais objetos para representar mais projetos
   ];
@@ -68,9 +73,9 @@
     buttonElement.textContent = dados.link;
     cardElemento.appendChild(buttonElement);
 
-    // Adiciona o card ao contêiner do portfolio
+    // Adiciona o card ao contêiner do portfolio  
     const linkCard = document.createElement('a')
-    linkCard.href = '#';
+    linkCard.href = dados.href;
     portfolioContainer.appendChild(linkCard)
 
     linkCard.appendChild(cardElemento);
