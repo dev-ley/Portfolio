@@ -173,6 +173,11 @@
         color: transparent;
         height: 120px;
     }
+
+    .conteiner3-Product {
+        padding-left: 20px;
+        width: 40%;
+    }
 }
 
 @media (max-width: 900px) {
