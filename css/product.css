@@ -133,6 +133,17 @@
         padding-left: 20px;
     }
 
+
+
+}
+
+
+@media (max-width: 1060px) {
+
+    .conteiner3-Product {
+        display: block;
+    }
+
     .icons-Product {
         display: flex;
         justify-content: space-between;
@@ -158,21 +169,6 @@
         -webkit-background-clip: text;
         color: transparent;
         height: 120px;
-    }
-
-}
-
-
-@media (max-width: 1060px) {
-
-    .conteiner3-Product {
-        display: block;
-    }
-
-    .text-Product > h2 {
-        font-size: 200px;
-        line-height: 180px;
-        text-align: start;
     }
 }
 
