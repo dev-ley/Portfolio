@@ -7,7 +7,7 @@
       titulo: 'Portifolio',
       categorias: ['Html', 'Css', 'JavaScript'],
       link: 'Acesse aqui',
-      href: 'https://tion-iota.vercel.app/'
+      href: 'https://wesleyrodrigues.vercel.app/'
     },
     {
       imagemSrc: 'img/portfolio/figmaland.png',
@@ -50,10 +50,12 @@
     cardElemento.classList.add('card');
     cardElemento.classList.add('hidden');
 
+
     // Adiciona a imagem
     const imagemElemento = document.createElement('img');
-    imagemElemento.src = dados.imagemSrc;
+    imagemElemento.src = dados.imagemSrc; 
     imagemElemento.alt = 'imagem de capa';
+
     cardElemento.appendChild(imagemElemento);
 
     // Adiciona o título
@@ -72,6 +74,7 @@
     const buttonElement = document.createElement('button');
     buttonElement.classList.add('butonlink')
     buttonElement.textContent = dados.link;
+
     cardElemento.appendChild(buttonElement);
 
     // Adiciona o card ao contêiner do portfolio  
