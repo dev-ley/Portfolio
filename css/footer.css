@@ -167,7 +167,7 @@
 }
 
 
-@media (max-width: 379px) {
+@media (max-width: 39   9px) {
 
     .box-footer > p {
         padding: 28px 0px 68px 17px;
@@ -191,4 +191,12 @@
         justify-content: center;
     }
 
+    .footer-logo > h3 {
+        font-family: var(--font-Principal);
+        color: white;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: 0em;
+    }
 }

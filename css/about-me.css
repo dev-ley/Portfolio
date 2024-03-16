@@ -167,7 +167,7 @@
 }
 
 .span3 {
-    background: linear-gradient(to right, #FFE76A 23%, #65C8FF 12% 60%, #FF0000 60%);
+    background: linear-gradient(to right, #30e000 23%, #f5ff38 12% 60%, #0062ff 60%);
     -webkit-background-clip: text;
     color: transparent;  
 }
