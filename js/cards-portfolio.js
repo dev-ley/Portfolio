@@ -10,6 +10,20 @@
       href: 'https://wesleyrodrigues.vercel.app/'
     },
     {
+      imagemSrc: 'img/portfolio/pokedex.jpg',
+      titulo: 'Pokedex',
+      categorias: ['JavaScript', 'Vue', 'NodeJs'],
+      link: 'Acesse aqui',
+      href: 'https://pokedex-six-zeta.vercel.app/'
+    },
+    {
+      imagemSrc: 'img/portfolio/FormularioLogin.jpg',
+      titulo: 'Formulário Login',
+      categorias: ['JavaScript', 'ReactJS', 'NodeJs'],
+      link: 'Acesse aqui',
+      href: 'https://formulario-login-ruby-six.vercel.app/'
+    },
+    {
       imagemSrc: 'img/portfolio/figmaland.png',
       titulo: 'Site Figma-Land ',
       categorias: ['Html', 'Css', 'JavaScript'],
@@ -80,6 +94,7 @@
     // Adiciona o card ao contêiner do portfolio  
     const linkCard = document.createElement('a')
     linkCard.href = dados.href;
+    linkCard.target = '_blank'; 
     portfolioContainer.appendChild(linkCard)
 
     linkCard.appendChild(cardElemento);
