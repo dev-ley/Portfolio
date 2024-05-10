@@ -10,6 +10,20 @@
       href: 'https://wesleyrodrigues.vercel.app/'
     },
     {
+      imagemSrc: 'img/portfolio/Vingadores.jpeg',
+      titulo: 'React Movies',
+      categorias: ['React', 'Styled-Components', 'React Router'],
+      link: 'Acesse aqui',
+      href: 'https://react-filmes-lyart.vercel.app/'
+    },
+    {
+      imagemSrc: 'img/portfolio/market-thumb.jpeg',
+      titulo: 'React Market',
+      categorias: ['React', 'Context', 'REST API'],
+      link: 'Acesse aqui',
+      href: 'https://react-market-green.vercel.app/'
+    },
+    {
       imagemSrc: 'img/portfolio/pokedex.jpg',
       titulo: 'Pokedex',
       categorias: ['JavaScript', 'Vue', 'NodeJs'],
